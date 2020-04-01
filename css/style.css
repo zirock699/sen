@@ -1,0 +1,643 @@
+/* CSS Document */
+.awardsList{
+	display: inline-block;
+	vertical-align: middle;
+	border-bottom: 2px solid #BFBD9F;
+	border-radius: 10px;
+}
+.mainHeader{
+	 background-color: #BFBD9F;
+	border-left: 15px solid #072A40;
+	border-radius: 10px 0px 0px 10px;
+}
+.footerlist{
+	
+	
+	height: 20px;
+	vertical-align: top;
+	
+	display: inline-block;
+}
+.card {
+	background-color: #F2F2F2;
+	box-shadow: 10px 10px 54px -1px rgba(7,42,64,0.96);
+	
+}
+.cancelbtn1:hover{
+	opacity: 0.7;
+	transition: 2s;
+	border: 2px solid grey;
+	border-right: none;
+  	border-radius: 5px;
+}
+.registerButton{
+
+
+	border: 2px inset grey;
+	
+	background-color: #F2E3B6;
+	opacity: 0.9;
+}
+.registerButton:hover{
+transition: 1s;
+opacity: 1;
+	border: 2px inset grey;
+	border-left: 4px inset #072A40;
+	background-color: #F2E3B6;
+}
+.registerButton:disabled{
+	
+	border-left: 10px solid #F2F2F2;
+}
+.card:hover{
+	
+	box-shadow: 0px 0px 0px 0px rgba(7,42,64,0.96);
+}
+.card-footer{
+	margin-bottom: 5px;
+}
+.btn-outline-success:hover{
+	color: #012340;
+	background-color: #BFBD9F;
+}
+.btn-outline-success{
+	color:#012340;
+}
+
+
+.tabElements{
+	border-left: 10px solid #072A40;
+}
+.card-body{
+	border-top: 15px solid #F2E3B6;
+	border-Bottom: 15px solid #F2E3B6;
+	background-color: #BFBD9F;
+	margin-top: 10px;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+.card-header{
+	text-align: center;
+	font-style: oblique;
+	font-weight: 700;
+}
+.awards {
+	width="auto";
+	height="50px";
+	margin-top: 5px;
+}
+.top{
+	background-color:#BFBD9F;
+}
+.topElements{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+#privacy{
+	position: absolute;
+	
+	right: 20px;
+}
+#access {
+position: absolute;
+	margin-top: 5px;
+	right: 90px;
+}
+.nav-link{
+	color: #F2F2F2;
+}
+.log{
+    display: inline;
+    position: absolute;
+    
+    margin-top: 40px;
+   
+    width: 294px;
+    height: 153px;
+}
+.slideimg{
+	height: 85vh;
+	width: 50%;
+	
+}
+.search{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 51px;
+	background-color: #F2F2F2;
+	border: 0px solid black; 
+	border-left: 10px solid #072A40;
+	border-top: 2px solid #012340;
+	border-bottom: 2px solid #012340;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #BFBD9F;
+  color: #072A40;
+  cursor: pointer;
+  padding-top: 3px;
+  box-shadow: 10px 10px 54px -1px rgba(7,42,64,0.96);
+}
+
+#myBtn:hover {
+  background-color: #072A40;
+	color: #F2F2F2;
+}
+.search:hover, .search:active, .search:focus, .search:checked{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #F2F2F2;
+	border: 0px solid black; 
+	border-left: 10px solid #012340;
+	box-shadow: 0px 0px 0px 0px rgba(7,42,64,0.96);
+}
+.btnSearch{
+	border-top: 2px solid #012340;
+	border-right: 2px solid #012340;
+	border-bottom: 2px solid #012340;
+	border-left: 0px solid #012340;
+	border-radius:0px ;
+	
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	
+}
+
+.carousel-caption{
+	background-color: #012340;
+	opacity: 80%
+}
+.captiontext{
+	
+	opacity: 100%;
+}
+.back{
+	background-color: #072A40;
+}
+.princpleslist{
+	border-left: 10px solid #012340;
+	box-shadow: 14px 19px 20px -14px rgba(0,0,0,0.75);
+}
+.princpleslist2{
+	border-right: 10px solid #012340
+}
+.principles{
+	padding-top: 20px;
+	
+	padding-left: -15px;
+}
+.loginform{
+	margin-top: 15px !important;
+}
+
+
+form .glyphicon {
+    color:#ffffff !important;
+    font-size: 30px;
+    background-color:#2f2f2f;  
+    padding:20px; 
+    border-radius:50%;
+    margin-top: -55px; 
+}
+form h3 {
+    color: #cccccc;
+    margin-top:-5px;
+}
+h3{
+	color: #cccccc
+}
+form input {
+   border-radius: 0 ; 
+}
+
+
+form input[type="text"] {
+   margin-bottom:10px;
+   margin-top: 20px; 
+   padding:20px;
+}
+form input[type="email"] {
+   padding:20px; 
+}
+
+form button {
+   
+   border-radius:0px ; 
+   border:none 
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #F2E3B6;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #BFBD9F;
+}
+
+/* Add padding and center-align text to the container */
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #072A40;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #F2F2F2;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  border-left: 20px solid #012340;
+	
+	/* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
+
+
+.promotion{
+	background-image: url("../images/student_success.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative;
+}
+.glow {
+  
+  color: #F2F2F2;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #F2F2F2, 0 0 20px #F2F2F2, 0 0 30px #F2E3B6, 0 0 40px #F2E3B6, 0 0 50px #F2E3B6, 0 0 60px #F2E3B6, 0 0 70px #F2E3B6;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #F2F2F2, 0 0 30px #BFBD9F, 0 0 40px #BFBD9F, 0 0 50px #BFBD9F, 0 0 60px #BFBD9F, 0 0 70px #BFBD9F, 0 0 80px #BFBD9F;
+  }
+}
+
+
+
+
+
+.prombtn {
+  background-color: #072A40;
+	border: none;
+  border-left: 10px solid #F2E3B6;
+  color: white;
+  
+  text-align: center;
+  font-size: 28px;
+  margin: 4px 2px;
+	margin-top: -3px;
+  opacity: 0.6;
+  transition: 0.3s;
+	margin-bottom: 10px;
+}
+
+.prombtn:hover {
+	color: #072A40;
+	background-color: #F2E3B6;
+	
+	opacity: 0.8;
+	border-left: 10px solid #012340;
+}
+.prombtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  
+}
+
+.prombtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  
+}
+
+.prombtn:hover span {
+  padding-right: 25px;
+}
+
+.prombtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* blog*/
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container2 {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container2::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container2 {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container2::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+/*ticket*/
+.input, .select, .textarea ,.sub{
+  width: 50%;
+  margin-bottom:0px;
+   margin-top: 0px; 
+   padding:0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+  
+  resize: vertical;
+}
+
+.sub {
+  background-color: #F2E3B6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sub:hover {
+  background-color: #BFBD9F;
+}
+
+.container3 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.classesList{
+	background-color: #F2E3B6;
+	border-left: 10px solid #072A40;
+	
+}
+.classesList:hover{
+	opacity: 0.8;
+		
+}
+.classesList:active{
+	margin-left: 0px;
+}
+.classesList2{
+	background-color: #BFBD9F;
+	border-right: 10px solid #072A40;
+	
+}
+.classesList2:hover{
+	opacity: 0.8;
+		
+}
+.classesList:active{
+	margin-left: 0px;
+}
+.headerstyle{
+	background-color: #F2E3B6;
+	margin-top: 10px;
+	border-left: 10px solid #072A40;
+	
+}
+
+/* teachers */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container1 {
+  padding: 0 16px;
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #072A40;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1:hover {
+  opacity: 0.9;
+}
+.downloadbtn {
+  background-color: #072A40;
+  border: none;
+  color: antiquewhite;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.downloadbtn:hover {
+  opacity: 0.9;
+}
